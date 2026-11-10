@@ -40,7 +40,7 @@ Close the chart window to return to the terminal menu. PNG charts are saved alon
 
 To update data without opening the analysis menu, run `python fetch_data.py`, select a pair, and enter your contact email.
 
-## What changed and why
+## Features
 
 - A shared configuration holds the three companies; fixed report IDs and fixed comparison years have been removed.
 - Main imports the downloader's reusable functions. Importing a module does not run its interactive menu because the entry point uses `if __name__ == "__main__"`.
@@ -48,7 +48,7 @@ To update data without opening the analysis menu, run `python fetch_data.py`, se
 - A grouped chart shows both years together and retains the original pink colour.
 - Total revenue growth and CAGR distinguish multi-year growth from a one-year change.
 - Database connections close once in a `finally` block; source evidence and amounts commit together.
-- The chart-list indentation issue in the supplied main.py is fixed.
+
 
 ## Financial definitions
 
