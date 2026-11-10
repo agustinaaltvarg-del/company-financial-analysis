@@ -1,0 +1,13 @@
+# Generated database files
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Python temporary files
+__pycache__/
+*.pyc
+
+# Local Python environments
+.venv/
+venv/
